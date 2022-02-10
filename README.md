@@ -20,7 +20,7 @@
 1. Clone this repository.
 2. Copy `catppuccin.micro` to `~/.config/micro/colorschemes` (create folder if it doesn't exist).
 3. Add `export MICRO_TRUECOLOR=1` to your shell RC file (bashrc, zshrc, config.fish ...).
-4. Open micro, if the theme isn't activated, press Ctrl+e, type `set colorscheme catppuccin` and press Enter.
+4. Open Micro, if the theme isn't activated, press Ctrl+e, type `set colorscheme catppuccin` and press Enter.
 
 ## 💝 Thanks to
 

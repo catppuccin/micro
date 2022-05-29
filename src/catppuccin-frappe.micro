@@ -1,5 +1,5 @@
-color-link default "#C6CEEF,#303446"
-color-link comment "#62677E"
+color-link default "#C6D0F5,#303446"
+color-link comment "#626880"
 
 color-link identifier "#8CAAEE"
 color-link identifier.class "#8CAAEE"
@@ -33,10 +33,10 @@ color-link gutter-warning "#E5C890"
 
 color-link statusline "#F2D5CF,#292C3C"
 color-link tabbar "#F2D5CF,#292C3C"
-color-link indent-char "#51566C"
-color-link line-number "#51566C"
+color-link indent-char "#51576D"
+color-link line-number "#51576D"
 color-link current-line-number "#BABBF1"
 
-color-link cursor-line "#414559,#C6CEEF"
+color-link cursor-line "#414559,#C6D0F5"
 color-link color-column "#414559"
 color-link type.extended "default"

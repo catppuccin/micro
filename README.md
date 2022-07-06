@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/catppuccin/micro/main/assets/cat-micro.png"/>
+  <img src="assets/cat-micro.png"/>
 </p>
 
 ## Usage

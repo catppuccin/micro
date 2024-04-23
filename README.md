@@ -39,7 +39,7 @@
 2. Copy files from `src` to `~/.config/micro/colorschemes` (create folder if it doesn't exist)
 3. Add `export "MICRO_TRUECOLOR=1"` to your shell RC file (bashrc, zshrc, config.fish ...)
 4. Open Micro, press Ctrl+e, type `set colorscheme catppuccin-mocha` and press Enter
-5. For other Catppuccin flavours just use it's name (`catppuccin-latte`, `catppuccin-frappe` or `catppuccin-macchiato`) 
+5. For other Catppuccin flavours just use it's name (`catppuccin-latte`, `catppuccin-frappe` or `catppuccin-macchiato`). The "transparent" variants are for transparent terminals.
 
 ## 💝 Thanks to
 

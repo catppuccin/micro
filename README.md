@@ -35,15 +35,13 @@
 
 ## Usage
 
-1. Clone this repository 
-2. Copy files from `src` to `~/.config/micro/colorschemes` (create folder if it doesn't exist)
-3. Add `export "MICRO_TRUECOLOR=1"` to your shell RC file (bashrc, zshrc, config.fish ...)
-4. Open Micro, press Ctrl+e, type `set colorscheme catppuccin-mocha` and press Enter
-5. For other Catppuccin flavours just use it's name (`catppuccin-latte`, `catppuccin-frappe` or `catppuccin-macchiato`) 
+1. Copy your preferred flavor(s) from [`src/`](./src/) to `~/.config/micro/colorschemes`.
+2. Add `export "MICRO_TRUECOLOR=1"` to your shell RC file (bashrc, zshrc, config.fish, etc).
+3. Open Micro, press <kbd>Ctrl</kbd>+<kbd>e</kbd>, type `set colorscheme catppuccin-<flavor>` (where `<flavor>` is one of `latte`, `frappe`, `macchiato`, or `mocha`), and press <kbd>Enter</kbd>.
 
 ## 💝 Thanks to
 
--   [elkrien](https://github.com/elkrien)
+- [elkrien](https://github.com/elkrien)
 
 &nbsp;
 

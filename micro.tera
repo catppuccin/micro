@@ -1,49 +1,51 @@
 ---
 whiskers:
-  version: "2.3.0"
+  version: 2.4.0
   matrix:
     - flavor
-  filename: "src/catppuccin-{{ flavor.identifier }}.micro"
+    - variant: ["regular", "transparent"]
+  filename: src/catppuccin-{{ flavor.identifier }}{% if variant == "transparent" %}-transparent{% endif %}.micro
+  hex_format: "#{{r}}{{g}}{{b}}"
 ---
-color-link default "#{{ text.hex }},#{{ base.hex }}"
-color-link comment "#{{ surface2.hex }}"
+color-link default "{{ text.hex }},{{ base.hex }}{% if variant == "transparent" %}00{% endif %}"
+color-link comment "{{ surface2.hex }}"
 
-color-link identifier "#{{ blue.hex }}"
-color-link identifier.class "#{{ blue.hex }}"
-color-link identifier.var "#{{ blue.hex }}"
+color-link identifier "{{ blue.hex }}"
+color-link identifier.class "{{ blue.hex }}"
+color-link identifier.var "{{ blue.hex }}"
 
-color-link constant "#{{ peach.hex }}"
-color-link constant.number "#{{ peach.hex }}"
-color-link constant.string "#{{ green.hex }}"
+color-link constant "{{ peach.hex }}"
+color-link constant.number "{{ peach.hex }}"
+color-link constant.string "{{ green.hex }}"
 
-color-link symbol "#{{ pink.hex }}"
-color-link symbol.brackets "#{{ flamingo.hex }}"
-color-link symbol.tag "#{{ blue.hex }}"
+color-link symbol "{{ pink.hex }}"
+color-link symbol.brackets "{{ flamingo.hex }}"
+color-link symbol.tag "{{ blue.hex }}"
 
-color-link type "#{{ blue.hex }}"
-color-link type.keyword "#{{ yellow.hex }}"
+color-link type "{{ blue.hex }}"
+color-link type.keyword "{{ yellow.hex }}"
 
-color-link special "#{{ pink.hex }}"
-color-link statement "#{{ mauve.hex }}"
-color-link preproc "#{{ pink.hex }}"
+color-link special "{{ pink.hex }}"
+color-link statement "{{ mauve.hex }}"
+color-link preproc "{{ pink.hex }}"
 
-color-link underlined "#{{ sky.hex }}"
-color-link error "bold #{{ red.hex }}"
-color-link todo "bold #{{ yellow.hex }}"
+color-link underlined "{{ sky.hex }}"
+color-link error "bold {{ red.hex }}"
+color-link todo "bold {{ yellow.hex }}"
 
-color-link diff-added "#{{ green.hex }}"
-color-link diff-modified "#{{ yellow.hex }}"
-color-link diff-deleted "#{{ red.hex }}"
+color-link diff-added "{{ green.hex }}"
+color-link diff-modified "{{ yellow.hex }}"
+color-link diff-deleted "{{ red.hex }}"
 
-color-link gutter-error "#{{ red.hex }}"
-color-link gutter-warning "#{{ yellow.hex }}"
+color-link gutter-error "{{ red.hex }}"
+color-link gutter-warning "{{ yellow.hex }}"
 
-color-link statusline "#{{ text.hex }},#{{ mantle.hex }}"
-color-link tabbar "#{{ text.hex }},#{{ mantle.hex }}"
-color-link indent-char "#{{ surface1.hex }}"
-color-link line-number "#{{ surface1.hex }}"
-color-link current-line-number "#{{ lavender.hex }}"
+color-link statusline "{{ text.hex }},{{ mantle.hex }}"
+color-link tabbar "{{ text.hex }},{{ mantle.hex }}"
+color-link indent-char "{{ surface1.hex }}"
+color-link line-number "{{ surface1.hex }}"
+color-link current-line-number "{{ lavender.hex }}"
 
-color-link cursor-line "#{{ surface0.hex }},#{{ text.hex }}"
-color-link color-column "#{{ surface0.hex }}"
+color-link cursor-line "{{ surface0.hex }},{{ text.hex }}"
+color-link color-column "{{ surface0.hex }}"
 color-link type.extended "default"

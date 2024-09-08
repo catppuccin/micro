@@ -8,7 +8,7 @@ whiskers:
   hex_format: "#{{r}}{{g}}{{b}}"
 ---
 color-link default "{{ text.hex }},{{ base.hex }}{% if variant == "transparent" %}00{% endif %}"
-color-link comment "{{ surface2.hex }}"
+color-link comment "{{ overlay2.hex }}"
 
 color-link identifier "{{ blue.hex }}"
 color-link identifier.class "{{ blue.hex }}"

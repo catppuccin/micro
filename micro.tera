@@ -4,7 +4,7 @@ whiskers:
   matrix:
     - flavor
     - variant: ["regular", "transparent"]
-  filename: src/catppuccin-{{ flavor.identifier }}{% if variant == "transparent" %}-transparent{% endif %}.micro
+  filename: themes/catppuccin-{{ flavor.identifier }}{% if variant == "transparent" %}-transparent{% endif %}.micro
   hex_format: "#{{r}}{{g}}{{b}}"
 ---
 color-link default "{{ text.hex }},{{ base.hex }}{% if variant == "transparent" %}00{% endif %}"

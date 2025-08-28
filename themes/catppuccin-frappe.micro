@@ -1,6 +1,7 @@
 color-link default "#c6d0f5,#303446"
 color-link comment "#949cbb"
-color-link selection "#c6d0f5,#414559"
+color-link selection "#c6d0f5,#51576d"
+color-link hlsearch "#81c8be"
 
 color-link identifier "#8caaee"
 color-link identifier.class "#8caaee"

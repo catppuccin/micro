@@ -9,7 +9,7 @@ whiskers:
 ---
 color-link default "{{ text.hex }}{% if variant == "regular" %},{{ base.hex }}{% endif %}"
 color-link comment "{{ overlay2.hex }}"
-color-link selection "{{ text.hex }},{{ surface0.hex }}"
+color-link selection "{{ text.hex }},{{ surface1.hex }}"
 color-link hlsearch "{{ teal.hex }}"
 
 color-link identifier "{{ blue.hex }}"

@@ -1,5 +1,6 @@
 color-link default "#cad3f5,#24273a"
 color-link comment "#939ab7"
+color-link selection "#cad3f5,#363a4f"
 
 color-link identifier "#8aadf4"
 color-link identifier.class "#8aadf4"

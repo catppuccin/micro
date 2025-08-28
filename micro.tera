@@ -3,12 +3,12 @@ whiskers:
   version: ^2.5.1
   matrix:
     - flavor
-    - variant: ["regular", "transparent"]
-  filename: themes/catppuccin-{{ flavor.identifier }}{% if variant == "transparent" %}-transparent{% endif %}.micro
+  filename: themes/catppuccin-{{ flavor.identifier }}.micro
   hex_format: "#{{r}}{{g}}{{b}}"
 ---
-color-link default "{{ text.hex }},{{ base.hex }}{% if variant == "transparent" %}00{% endif %}"
+color-link default "{{ text.hex }},{{ base.hex }}"
 color-link comment "{{ overlay2.hex }}"
+color-link selection "{{ text.hex }},{{ surface0.hex }}"
 
 color-link identifier "{{ blue.hex }}"
 color-link identifier.class "{{ blue.hex }}"

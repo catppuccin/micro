@@ -40,7 +40,6 @@ color-link diff-deleted "{{ red.hex }}"
 color-link gutter-error "{{ red.hex }}"
 color-link gutter-warning "{{ yellow.hex }}"
 
-color-link scrollbar "{{ rosewater.hex }}"
 color-link statusline "{{ text.hex }},{{ mantle.hex }}"
 color-link tabbar "{{ text.hex }},{{ mantle.hex }}"
 color-link indent-char "{{ surface1.hex }}"

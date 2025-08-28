@@ -8,7 +8,7 @@ whiskers:
   hex_format: "#{{r}}{{g}}{{b}}"
 ---
 color-link default "{{ text.hex }}{% if variant == "regular" %},{{ base.hex }}{% endif %}"
-color-link comment "{{ overlay2.hex }}"
+color-link comment "{{ overlay1.hex }}"
 color-link selection "{{ text.hex }},{{ surface1.hex }}"
 color-link hlsearch "{{ teal.hex }}"
 

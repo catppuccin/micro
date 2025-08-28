@@ -7,7 +7,7 @@ whiskers:
   filename: themes/catppuccin-{{ flavor.identifier }}{% if variant == "transparent" %}-transparent{% endif %}.micro
   hex_format: "#{{r}}{{g}}{{b}}"
 ---
-color-link default {% if variant == "transparent" %}"{{ text.hex }}"{% else %}"{{ text.hex }},{{ base.hex }}"{% endif %}
+color-link default "{{ text.hex }}{% if variant == "regular" %},{{ base.hex }}{% endif %}"
 color-link comment "{{ overlay2.hex }}"
 color-link selection "{{ text.hex }},{{ surface0.hex }}"
 

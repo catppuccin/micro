@@ -3,10 +3,11 @@ whiskers:
   version: ^2.5.1
   matrix:
     - flavor
-  filename: themes/catppuccin-{{ flavor.identifier }}.micro
+    - variant: ["regular", "transparent"]
+  filename: themes/catppuccin-{{ flavor.identifier }}{% if variant == "transparent" %}-transparent{% endif %}.micro
   hex_format: "#{{r}}{{g}}{{b}}"
 ---
-color-link default "{{ text.hex }},{{ base.hex }}"
+color-link default "{{ text.hex }}{% if variant == "regular" %},{{ base.hex }}{% endif %}"
 color-link comment "{{ overlay2.hex }}"
 color-link selection "{{ text.hex }},{{ surface0.hex }}"
 

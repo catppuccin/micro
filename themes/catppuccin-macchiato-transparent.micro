@@ -1,5 +1,5 @@
 color-link default "#cad3f5"
-color-link comment "#939ab7"
+color-link comment "#8087a2"
 color-link selection "#cad3f5,#494d64"
 color-link hlsearch "#8bd5ca"
 
@@ -33,6 +33,7 @@ color-link diff-deleted "#ed8796"
 color-link gutter-error "#ed8796"
 color-link gutter-warning "#eed49f"
 
+color-link scrollbar "#939ab7"
 color-link statusline "#cad3f5,#1e2030"
 color-link tabbar "#cad3f5,#1e2030"
 color-link indent-char "#494d64"

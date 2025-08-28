@@ -42,6 +42,7 @@
 ## 💝 Thanks to
 
 - [elkrien](https://github.com/elkrien)
+- [Toria](https://github.com/ninetailedtori)
 
 &nbsp;
 

@@ -33,6 +33,7 @@ color-link diff-deleted "#e78284"
 color-link gutter-error "#e78284"
 color-link gutter-warning "#e5c890"
 
+color-link scrollbar "#949cbb"
 color-link statusline "#c6d0f5,#292c3c"
 color-link tabbar "#c6d0f5,#292c3c"
 color-link indent-char "#51576d"
